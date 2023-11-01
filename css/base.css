@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* FONT WEIGHTS */
+    --regular: 400;
+    --bold: 700;
+
+    /* COLORS */
+    --clr-red: hsl(4, 100%, 67%);
+    
+    /* NEUTRALS */
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-neutral-60: hsl(231, 7%, 60%);
+    --clr-neutral-26: hsl(235, 18%, 26%);
+    --clr-neutral-20: hsl(234, 29%, 20%);
+}
+
+body, body *{
+    color: var(--clr-neutral-20);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--regular);
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: var(--bold);
+}
