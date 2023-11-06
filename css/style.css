@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding-block: 2.5rem;
     padding-inline: 1.5rem;
-    padding-top: 2.5rem;
 }
 
 .content{
@@ -50,12 +50,23 @@
         }
 
         & input{
+            border: 1px solid var(--clr-neutral-60);
+            border-radius: .5rem;
             font-size: 1rem;
+            outline: none;
+            padding: 1.25rem;
+
+            &:is(:hover, :focus){
+                border-color: #000;
+                color: #000;
+            }
         }
     }
 
     .button{
         background-color: var(--clr-neutral-20);
+        border: none;
+        border-radius: .5rem;
         color: var(--clr-white);
         font-size: 1rem;
         font-weight: var(--bold);
