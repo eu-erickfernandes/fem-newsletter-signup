@@ -1,5 +1,5 @@
-- [ ] Hover do botão
+- [x] Hover do botão
 - [ ] Validação do campo
     - [ ] Mensagem
-    - [ ] Cor do campo
-    - [ ] Página de sucesso
+    - [x] Cor do campo
+- [ ] Página de sucesso
