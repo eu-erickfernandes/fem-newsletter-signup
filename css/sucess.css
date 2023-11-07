@@ -1,0 +1,36 @@
+html, body, .main{
+    height: 100%;
+}
+
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+    padding-inline: 1.5rem;
+    padding-top: 9rem;
+}
+
+    .success-icon{
+        height: 4rem;
+        width: auto;
+    }
+
+    .content{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+        .content__message{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .content__copy{
+            line-height: 150%;
+        }

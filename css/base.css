@@ -22,7 +22,37 @@ body, body *{
     font-weight: var(--regular);
 }
 
+b{
+    font-weight: var(--bold);
+}
+
 .title{
     font-size: 2.5rem;
     font-weight: var(--bold);
+}
+
+.button{
+    --button-gradient: linear-gradient(
+        to right,
+        hsl(344, 100%, 67%),
+        hsl(4, 100%, 67%),
+        hsl(20, 100%, 67%)
+    );
+
+    background-color: var(--clr-neutral-20);
+    border: none;
+    border-radius: .5rem;
+    color: var(--clr-white);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: var(--bold);
+    outline: none;
+    padding-block: 1.5rem;
+    transition: .5s;
+    width: 100%;
+
+    &:is(:hover, :focus){
+        background-image: var(--button-gradient);
+        box-shadow: 0 12px 32px 0 hsla(4, 100%, 67%, .5);
+    }
 }

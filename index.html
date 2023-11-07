@@ -10,8 +10,8 @@
 
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/base.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/responsive.css">
+
+        <link rel="stylesheet" href="./css/index.css">
     </head>
 
     <body>
@@ -43,11 +43,12 @@
                 </ul>
             </div>
 
-            <form class="form">
+            <form class="form" action="./sucess.html">
                 <fieldset class="form__group">
                     <label for="email-field">Email address</label>
+                    <span class="error-message">Valid email required</span>
 
-                    <input type="email" id="email-field" placeholder="email@company.com" data-campo-email required>
+                    <input name="email" type="email" id="email-field" placeholder="email@company.com" data-campo-email required>
                 </fieldset>
 
                 <button class="button" type="submit">Subscribe to monthly newsletter</button>
@@ -59,6 +60,6 @@
             <p>Coded by <a href="https://eu-erickfernandes.github.io/meus-links/">Érick Fernandes</a>.</p>
         </footer> -->
 
-        <script src="./script.js"></script>
+        <script src="./js/index.js"></script>
     </body>
 </html>
