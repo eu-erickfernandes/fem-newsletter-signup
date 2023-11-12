@@ -43,6 +43,7 @@
     .attribution{
         background-color: hsl(234, 29%, 30%);
         bottom: 0;
+        box-sizing: border-box;
         left: 0;
         position: absolute;
         width: 100%;
