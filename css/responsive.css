@@ -1,0 +1,50 @@
+.sing-up-image{
+    display: none;
+}
+
+@media screen and (width >= 1440px) {
+    html{
+        align-items: center;
+        background-color: var(--clr-neutral-20);
+        display: flex;
+        height: 100%;
+        justify-content: center;
+    }
+
+    body{
+        background-color: var(--clr-white);
+        border-radius: 2rem;
+        display: flex;
+        padding: 1.5rem;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .sing-up-image{
+        display: block;
+    }
+
+    .success-modal[open]{
+        border-radius: 2rem;
+        gap: 2.5rem;
+        height: fit-content;
+        padding-bottom: 4rem;
+        padding-inline: 4rem;
+        padding-top: 3rem;
+        max-width: 504px;
+
+        &::backdrop{
+            background-color: hsl(234, 29%, 20%);
+        }
+    }
+
+    .attribution{
+        background-color: hsl(234, 29%, 30%);
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+}

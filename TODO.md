@@ -1,6 +1,0 @@
-- [x] Hover do botão
-- [ ] Validação do campo
-    - [x] Mensagem
-    - [x] Cor do campo
-- [x] Página de sucesso
-- [ ] Versão Desktop

@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/base.css">
 
-        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/responsive.css">
     </head>
 
     <body>
@@ -43,22 +44,39 @@
                 </ul>
             </div>
 
-            <form class="form" action="./sucess.html">
+            <form class="form" data-form>
                 <fieldset class="form__group">
                     <label for="email-field">Email address</label>
                     <span class="error-message">Valid email required</span>
 
-                    <input name="email" type="email" id="email-field" placeholder="email@company.com" data-campo-email required>
+                    <input name="email" type="email" id="email-field" placeholder="email@company.com" data-email-field required>
                 </fieldset>
 
-                <button class="button" type="submit">Subscribe to monthly newsletter</button>
+                <button class="button" type="submit" data-open-modal>Subscribe to monthly newsletter</button>
             </form>
+
+
+            <dialog class="success-modal" data-success-modal>
+                <div class="modal-content">
+                    <img class="icon" src="./assets/images/icon-success.svg" alt="Success!">
+                    
+                    <div class="message">
+                        <h1 class="title">Thanks for subscribing!</h1>
+                        
+                        <p class="copy">A confirmation email has been sent to <b data-success-email></b>. Please open it and click the button inside to confirm your subscription</p>
+                    </div>
+                </div>
+    
+                <button class="button" data-close-modal>Dismiss message</button>
+            </dialog>
         </main>
 
-        <!-- <footer class="attribution">
+        <img class="sing-up-image" src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+
+        <footer class="attribution">
             <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
             <p>Coded by <a href="https://eu-erickfernandes.github.io/meus-links/">Érick Fernandes</a>.</p>
-        </footer> -->
+        </footer>
 
         <script src="./js/index.js"></script>
     </body>
