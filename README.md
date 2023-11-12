@@ -23,7 +23,7 @@ Users should be able to:
 
 ### My results
 
-
+![Group 1](https://github.com/eu-erickfernandes/fem-newsletter-signup/assets/44778115/ee1b1f01-0818-4bd9-a4d6-223595c3de77)
 
 ### Built with
 
